@@ -1,6 +1,5 @@
 html{
     box-sizing: border-box;
-    font-family: 'open Sans', 'sans-serif';
     font-size: 12px;
   }
   *,
@@ -36,4 +35,39 @@ html{
   
   .icon {
     font-size: 4rem;
+  }
+  /*  */
+
+  .emojis, header{
+    max-width: 60%;
+    margin: auto;
+    padding-top: 1.5rem;
+  }
+  h1{
+    font-size: 4.2rem;
+    font-weight: 700;
+  }
+  .emoji h2{
+    font-size: 2.2rem;
+    font-weight: 750;
+  
+  }
+  .emoji p, .emoji a {
+    font-size: 1.2rem;
+    font-weight: 540;
+  }
+  .emoji{
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .icon{
+    order: -1;
+    align-self: center;
+  }
+  .emojis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
   }
